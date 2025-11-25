@@ -1,7 +1,52 @@
 @charset "UTF-8";
 
+/*
+Verde #49a09d
+Lilás #5f2c82
+*/
+
 *{
     padding: 0px;
     margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
 }
 
+body, html{
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    
+    /* Alinhar no centro da tela */
+    /* Guanabara fez de outro jeito, se der errado: Aula 41, minuto 7*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#login{
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden; /* Tudo que tiver fora da borda vai ficar escondido */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+}
+
+section#login div#imagem{
+    background: #5f2c82 url(../imagens/parede.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+    display: block;
+}
+
+section#login div#formulario{
+    display: block;
+    padding: 10px;
+
+}
