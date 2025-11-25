@@ -36,6 +36,7 @@ section#login{
     border-radius: 20px;
     overflow: hidden; /* Tudo que tiver fora da borda vai ficar escondido */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    
 }
 
 section#login div#imagem{
