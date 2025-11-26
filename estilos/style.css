@@ -31,8 +31,8 @@ main{
 
 section#login{
     background-color: white;
-    width: 250px;
-    height: 500px;
+    width: 240px;
+    height: 550px;
     border-radius: 20px;
     overflow: hidden; /* Tudo que tiver fora da borda vai ficar escondido */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
@@ -42,7 +42,7 @@ section#login{
 
 section#login div#imagem{
     background: #5f2c82 url(../imagens/parede.jpg) no-repeat;
-    height: 200px;
+    height: 180px;
     background-size: cover;
     display: block;
 }
