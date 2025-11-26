@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-/*
-Verde #49a09d
-Lilás #5f2c82
-*/
-
 *{
     padding: 0px;
     margin: 0px;
@@ -66,14 +61,30 @@ form div.campo{
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px; /* 5px em CIMA e EM BAIXO */
     padding: 3px;
 }
 
 form label{
-    display: none; /* Vai tirar o nome LOGIN e SENHA*/
-    
+    display: none; /* Vai tirar o nome LOGIN e SENHA*/    
+}
+
+div.campo span{
+    color: white;
+    width: 40px;
+    padding: 5px;
+    font-size: 2em;
+}
+
+div.campo input{
+    font-size: 1em;
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 5px;
+    width: calc(100% - 50px);
+    transform: translateY(-14px); /* Sempre na última linha */
 }
 
 form input[type=submit]{
